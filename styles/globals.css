@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --main-text-color: white;
+    --inputs-bg-color: #333;
+    --main-bg-color: black;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+a {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    outline: none !important;
+}
